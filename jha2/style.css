@@ -1,0 +1,104 @@
+*{
+	margin:0px; padding:0px;
+}
+.bgimage{
+	overflow: auto;
+	background-image: linear-gradient(powderblue,maroon);
+	//background-image: url('jammu.jpg');
+	background-size: cover;
+	margin: 0px;
+	height: 100vh;
+	
+}
+.menu{
+		width: 100%;
+		height: 10vh;
+		max-height: 100px;
+		background-color:rgba(0,0,0,0.4);
+		overflow:hidden;
+}
+.leftmenu{
+	width:23%;
+	height:100vh;
+	float:left;
+	
+}
+.leftmenu h4{
+	padding-left:50px;
+	color:white;
+	font-size:21px;
+	padding-top:20px;
+	text-transform: uppercase;
+	position: relative;
+	animation-name: effect;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction:  alternate;
+	animation-timing-function: ease-in;
+}
+@keyframes effect {
+	0% {left: 0px; top: 0px; color: yellow;}
+	25% {left:50px; top: 0px; color: orange;}
+	50% {left: 50px; top: 50px; color: red;}
+	75% {left: 0px; top: 50px; color: blue;}
+	100% {left:0px; top: 0px; color: maroon;}
+}
+.leftmenu h4:hover{
+	cursor: pointer;
+	color:powderblue;
+	padding-top:22px;
+	
+}
+
+	.rightmenu{
+	width: 70%;
+	height: 10vh;
+	float: right;
+	}
+	.rightmenu ul li {
+	display: inline-block;	
+	font-size: 20px;
+	padding-top: 20px;
+	
+	}
+	.rightmenu ul li a{
+	color: white;
+    text-decoration:none;
+	padding: 50px;
+	padding-top: 40px;
+	font-weight:bold;
+	}
+	.rightmenu ul li a:hover{
+		color:powderblue;
+	}
+	.text{
+	width:150vh;
+	margin-top:180px;
+	margin-left:10px;
+	text-align: center;	
+	color: white;
+	}
+	.text h3{
+	font-size: 30px;
+    font-family: helvetica;	
+	}
+	.text h1{
+		font-size: 45px;
+		font-family:sans-serif;
+	}
+	.text p{
+		padding:10px;
+		font-size:25px;
+		text-align: center;
+	}
+	.text  a{
+		text-decoration:none;
+		color: black;
+		font-size:20px;
+		margin:5px;
+		border:3px solid maroon;
+		border-radius: 5px;
+	}
+	.text a:active{
+		color: powderblue;
+	}
